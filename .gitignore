@@ -1,0 +1,10 @@
+
+# SEC: nenhum .env/credencial vai pro git
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+id_rsa*
+.npmrc
